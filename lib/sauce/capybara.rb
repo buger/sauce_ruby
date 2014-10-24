@@ -109,7 +109,7 @@ module Sauce
       end
 
       def render(path, options = {})
-        browser.save_screenshot path, options
+        browser.save_screenshot path
       end
     end
 
