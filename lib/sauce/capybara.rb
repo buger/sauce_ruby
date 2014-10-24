@@ -108,8 +108,8 @@ module Sauce
         @browser = nil
       end
 
-      def render(path)
-        browser.save_screenshot path
+      def render(path, options = {})
+        browser.save_screenshot path, options
       end
     end
 
